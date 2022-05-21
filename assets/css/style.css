@@ -38,6 +38,13 @@ header nav {
     font-size: 20px;
 }
 
+/* Assigns color and margin to navbar items */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 30px;
+}
+
 /* Assures navbar items do not have the default bullet points */
 ul {
     list-style: none;
@@ -53,14 +60,17 @@ nav ul li:hover a{
     color: lightgray;
 }
 
-/* Assigns color and margin to navbar items */
-a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 30px;
+/* Assigns size, placement, margins, and img to main-img element */
+.main-img {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/dm-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-/* Assigns font size to content paragraphs */
+/* Assigns font size to all paragraphs */
 p {
     font-size: 16px;
 }
@@ -95,33 +105,6 @@ footer h2 {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-/* Assigns margins/spacing, size, font, and colors to "content" boxes */
-.s-e-o,
-.online-rep-mgmt,
-.sm-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Assigns size to imgs in "content" boxes */
-.s-e-o img,
-.online-rep-mgmt img,
-.sm-marketing img {
-    max-height: 200px;
-}
-
-/* Assigns bottom margins and font size to headings in "content" boxes */
-.s-e-o h2,
-.online-rep-mgmt h2,
-.sm-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Assigns margins/placement, size, font, and color to "benefits" box */
@@ -162,12 +145,29 @@ footer h2 {
     max-width: 150px;
 }
 
-/* Assigns size, placement, margins, and img to main-img element */
-#main-img {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/dm-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+/* Assigns margins/spacing, size, font, and colors to "content" boxes */
+#s-e-o,
+#online-rep-mgmt,
+#sm-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Assigns size to imgs in "content" boxes */
+#s-e-o img,
+#online-rep-mgmt img,
+#sm-marketing img {
+    max-height: 200px;
+}
+
+/* Assigns bottom margins and font size to headings in "content" boxes */
+#s-e-o h2,
+#online-rep-mgmt h2,
+#sm-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
