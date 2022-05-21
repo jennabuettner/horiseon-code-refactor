@@ -42,6 +42,10 @@ li {
     margin-left: 25px;
 }
 
+nav ul li:hover a{ 
+    color: lightgray;
+}
+
 /*  */
 a {
     color: #ffffff;
