@@ -1,14 +1,16 @@
+/* Assures entire web application does not have a surrounding border */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Colors the background of the body. */
+/* Colors background of body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Assigns background color, text color, and font to header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Assigns alignment and size to logo in header */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes "seo" in the logo to slighty darker color */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Assigns spacing, location, font, and font size to navbar items */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,30 +38,34 @@ header nav {
     font-size: 20px;
 }
 
+/* Assures navbar items do not have the default bullet points */
 ul {
     list-style: none;
 }
 
+/* Assures navbar items are in a horizontal line */
 li {
     display: inline-block;
-    margin-left: 25px;
 }
 
+/* Changes color of navbar items when the cursor hovers over them */
 nav ul li:hover a{ 
     color: lightgray;
 }
 
-/*  */
+/* Assigns color and margin to navbar items */
 a {
     color: #ffffff;
     text-decoration: none;
     margin: 30px;
 }
 
+/* Assigns font size to content paragraphs */
 p {
     font-size: 16px;
 }
 
+/* Assigns spacing, placement, font, and alignment to footer */
 footer {
     padding: 30px;
     clear: both;
@@ -64,26 +73,31 @@ footer {
     text-align: center;
 }
 
+/* Assigns font size to heading in footer */
 footer h2 {
     font-size: 20px;
 }
 
+/* Assigns width, placement, and margins to "content" elements */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Allows imgs in first and third "content" boxes to be placed left of text */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Allows img in second "content" box to be placed right of text */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Assigns margins/spacing, size, font, and colors to "content" boxes */
 .s-e-o,
 .online-rep-mgmt,
 .sm-marketing {
@@ -95,12 +109,14 @@ footer h2 {
     color: #ffffff;
 }
 
+/* Assigns size to imgs in "content" boxes */
 .s-e-o img,
 .online-rep-mgmt img,
 .sm-marketing img {
     max-height: 200px;
 }
 
+/* Assigns bottom margins and font size to headings in "content" boxes */
 .s-e-o h2,
 .online-rep-mgmt h2,
 .sm-marketing h2 {
@@ -108,6 +124,7 @@ footer h2 {
     font-size: 36px;
 }
 
+/* Assigns margins/placement, size, font, and color to "benefits" box */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,6 +136,7 @@ footer h2 {
     background-color: #2589bd;
 }
 
+/* Assigns margins and text color to each portion of "benefits" box */
 .benefit-lead, 
 .benefit-brand,
 .benefit-cost {
@@ -127,6 +145,7 @@ footer h2 {
 
 }
 
+/* Assigns margins and alignment of headings in "benefits" box */
 .benefit-lead h3, 
 .benefit-brand h3, 
 .benefit-cost h3 {
@@ -134,6 +153,7 @@ footer h2 {
     text-align: center;
 }
 
+/* Assigns placement, margins, and size to icons in "benefits" box */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -142,6 +162,7 @@ footer h2 {
     max-width: 150px;
 }
 
+/* Assigns size, placement, margins, and img to main-img element */
 #main-img {
     height: 800px;
     width: 100%;
