@@ -17,7 +17,7 @@ a {
 }
 
 p {
-    font-size: 100%;
+    font-size: 16px;
 }
 
 header {
@@ -36,11 +36,11 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header section {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
     }
 
@@ -85,26 +85,23 @@ li {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand,
+.benefit-lead, 
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.benefit-lead h3, 
+.benefit-brand h3, 
+.benefit-cost h3 {
     margin: 10px;
     text-align: center;
-}
-
-.benefits p {
-    margin: 10px;
-    text-align: left;
-    font-size: 16;
 }
 
 .benefit-lead img,
@@ -121,7 +118,7 @@ li {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -139,13 +136,13 @@ li {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
